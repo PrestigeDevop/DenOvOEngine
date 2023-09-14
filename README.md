@@ -1,5 +1,5 @@
 # a cross platform Game engine based on Veldrid renderer.
-This is an example of simple 3D video game built with .NET Core. It supports Windows, OSX, and Linux. It is built on top of a custom game engine, the sources of which can be found here: https://github.com/mellinoe/ge.
+This is an example of a simple 3D video game built with .NET Core. It supports Windows, OSX, and Linux. It is built on top of a custom game engine, the sources of which can be found here: https://github.com/mellinoe/ge.
 
 This repository contains the game-specific assets and code files for Crazy Core. It has a submodule which includes the engine as a dependency.
 ![image](https://github.com/PrestigeDevop/DenvoEngine/assets/85388342/37e461b0-b308-41b5-a537-6933287f5dbc)
@@ -14,6 +14,13 @@ This repository contains the game-specific assets and code files for Crazy Core.
 
 # Features
 Graphics
+Supported backends:
+
+    Direct3D 11
+    Vulkan
+    Metal
+    OpenGL 3
+    OpenGL ES 3
 
     Full 3D rendering system, with support for Direct3D 11 and OpenGL backends
     Forward-rendered pipeline with support for real-time directional shadows, particle systems, transparent objects, and a simple immediate-mode GUI.
